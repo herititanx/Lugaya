@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lugaya Junior ❤️ Rahma</title>
+    <style>
+/* =========================================
+   💗 LUGAYA JUNIOR ❤️ RAHMA
+   SOFT HAPPY REBORN STYLE
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #f8b6d2,
+        #f3a6c4,
+        #ffd6e5
+    );
+
+    color: #111;
+    font-family: Georgia, "Times New Roman", serif;
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   💕 LOGIN PAGE
+========================================= */
+
+#loginPage {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            rgba(255,255,255,0.45),
+            transparent 40%
+        ),
+        linear-gradient(
+            135deg,
+            #f8b6d2,
+            #f3a6c4,
+            #ffd6e5
+        );
+}
+
+.login-box {
+    width: 100%;
+    max-width: 430px;
+
+    padding: 40px 28px;
+
+    text-align: center;
+
+    background: rgba(255,255,255,0.28);
+
+    border: 2px solid rgba(255,255,255,0.75);
+
+    border-radius: 30px;
+
+    box-shadow:
+        0 10px 35px rgba(120,40,75,0.18),
+        0 0 35px rgba(255,255,255,0.45);
+
+    backdrop-filter: blur(15px);
+
+    animation: loginGlow 3s infinite alternate;
+}
+
+.login-box h1 {
+    font-size: 32px;
+
+    margin-bottom: 12px;
+
+    color: #111;
+
+    text-shadow:
+        0 1px 3px rgba(255,255,255,0.8),
+        0 0 15px rgba(255,255,255,0.7);
+}
+
+.login-box p {
+    font-size: 16px;
+
+    margin-bottom: 25px;
+
+    color: #222;
+}
+
+.login-box input {
+    width: 100%;
+
+    padding: 15px;
+
+    margin: 10px 0;
+
+    border: 2px solid rgba(255,255,255,0.8);
+
+    border-radius: 15px;
+
+    outline: none;
+
+    background: rgba(255,255,255,0.88);
+
+    color: #111;
+
+    font-size: 16px;
+
+    text-align: center;
+}
+
+.login-box input::placeholder {
+    color: #777;
+}
+
+.login-box button {
+    width: 100%;
+
+    padding: 15px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        90deg,
+        #e98eb3,
+        #f3a6c4,
+        #e98eb3
+    );
+
+    color: #111;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 18px rgba(120,40,75,0.2),
+        0 0 20px rgba(255,255,255,0.6);
+
+    transition: 0.3s;
+}
+
+.login-box button:hover {
+    transform: scale(1.04);
+}
+
+
+/* =========================================
+   💗 MAIN PAGE
+========================================= */
+
+#mainPage {
+    display: none;
+
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #f8b6d2,
+        #f3a6c4,
+        #ffd6e5
+    );
+
+    color: #111;
+}
+
+
+/* =========================================
+   💕 HERO
+========================================= */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(255,255,255,0.40),
+            transparent 45%
+        ),
+        linear-gradient(
+            135deg,
+            #f8b6d2,
+            #f3a6c4,
+            #ffd6e5
+        );
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: clamp(40px, 10vw, 80px);
+
+    color: #111;
+
+    text-shadow:
+        0 2px 5px rgba(255,255,255,0.8),
+        0 0 20px rgba(255,255,255,0.7);
+
+    animation: titlePulse 3s infinite alternate;
+}
+
+.hero p {
+    margin-top: 20px;
+
+    font-size: 20px;
+
+    color: #222;
+
+    text-shadow:
+        0 1px 4px rgba(255,255,255,0.7);
+}
+
+
+/* =========================================
+   💗 LOVE SECTIONS
+========================================= */
+
+.love-section {
+    width: 100%;
+
+    min-height: 100vh;
+
+    padding: 70px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #ffd6e5,
+        #f3a6c4,
+        #f8b6d2
+    );
+
+    color: #111;
+}
+
+.love-section.reverse {
+    background: linear-gradient(
+        135deg,
+        #f8b6d2,
+        #ffd6e5,
+        #f3a6c4
+    );
+}
+
+.love-section > div {
+    width: 100%;
+
+    max-width: 1100px;
+}
+
+.love-section h2 {
+    text-align: center;
+
+    font-size: clamp(30px, 6vw, 55px);
+
+    margin-bottom: 30px;
+
+    color: #111;
+
+    text-shadow:
+        0 2px 5px rgba(255,255,255,0.8),
+        0 0 18px rgba(255,255,255,0.65);
+}
+
+.love-section p {
+    max-width: 850px;
+
+    margin: 25px auto;
+
+    font-size: 19px;
+
+    line-height: 1.9;
+
+    text-align: center;
+
+    color: #111;
+
+    text-shadow:
+        0 1px 3px rgba(255,255,255,0.7);
+}
+
+
+/* =========================================
+   📸 PHOTO CONTAINER
+========================================= */
+
+.photo-container {
+    width: 100%;
+
+    max-width: 750px;
+
+    margin: 35px auto;
+
+    padding: 12px;
+
+    background: rgba(255,255,255,0.30);
+
+    border: 3px solid rgba(255,255,255,0.85);
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 35px rgba(120,40,75,0.20),
+        0 0 30px rgba(255,255,255,0.55);
+
+    transform: none;
+}
+
+.photo-container img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    max-width: 100%;
+
+    object-fit: contain;
+
+    border-radius: 18px;
+}
+
+
+/* =========================================
+   💕 FINAL PHOTO SECTION
+========================================= */
+
+.final-photo-section {
+    min-height: 100vh;
+
+    padding: 70px 20px;
+
+    text-align: center;
+
+    background: linear-gradient(
+        135deg,
+        #f3a6c4,
+        #ffd6e5,
+        #f8b6d2
+    );
+
+    color: #111;
+}
+
+.final-photo-section h2 {
+    font-size: clamp(35px, 7vw, 65px);
+
+    margin-bottom: 35px;
+
+    color: #111;
+
+    text-shadow:
+        0 2px 5px rgba(255,255,255,0.8),
+        0 0 20px rgba(255,255,255,0.7);
+}
+
+.final-photo {
+    width: 100%;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 12px;
+
+    border: 3px solid rgba(255,255,255,0.85);
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.28);
+
+    box-shadow:
+        0 10px 40px rgba(120,40,75,0.20),
+        0 0 35px rgba(255,255,255,0.6);
+}
+
+.final-photo img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    max-width: 100%;
+
+    object-fit: contain;
+
+    border-radius: 20px;
+}
+
+
+/* =========================================
+   👑 FINAL LUGAYA JUNIOR SECTION
+========================================= */
+
+.final-section {
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background:
+        radial-gradient(
+            circle,
+            #ffd6e5,
+            #f8b6d2,
+            #f3a6c4
+        );
+
+    color: #111;
+
+    overflow: hidden;
+}
+
+.lugaya {
+    font-size: clamp(45px, 10vw, 100px);
+
+    font-weight: bold;
+
+    color: #111;
+
+    text-shadow:
+        0 2px 5px rgba(255,255,255,0.9),
+        0 0 20px rgba(255,255,255,0.7);
+
+    animation: nameGlow 2.5s infinite alternate;
+}
+
+.forever {
+    margin-top: 25px;
+
+    font-size: clamp(20px, 5vw, 35px);
+
+    color: #111;
+
+    text-shadow:
+        0 1px 5px rgba(255,255,255,0.8);
+}
+
+.signature {
+    margin-top: 35px;
+
+    font-size: 18px;
+
+    color: #222;
+
+    opacity: 0.95;
+}
+
+
+/* =========================================
+   💗 DECORATIVE NAMES
+========================================= */
+
+.name-cloud {
+    margin-top: 40px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 15px;
+}
+
+.name-cloud span {
+    padding: 10px 18px;
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.30);
+
+    border: 1px solid rgba(255,255,255,0.85);
+
+    color: #111;
+
+    box-shadow:
+        0 5px 15px rgba(120,40,75,0.15),
+        0 0 15px rgba(255,255,255,0.55);
+
+    animation: floating 3s infinite ease-in-out;
+}
+
+
+/* =========================================
+   ❤️ FLOATING HEARTS
+========================================= */
+
+.heart {
+    position: fixed;
+
+    bottom: -50px;
+
+    font-size: 25px;
+
+    color: #d94f83;
+
+    pointer-events: none;
+
+    z-index: 999;
+
+    animation: heartFloat 6s linear infinite;
+
+    text-shadow:
+        0 0 5px white,
+        0 0 12px rgba(255,255,255,0.8);
+}
+
+
+/* =========================================
+   ✨ ANIMATIONS
+========================================= */
+
+@keyframes loginGlow {
+
+    from {
+        box-shadow:
+            0 10px 30px rgba(120,40,75,0.15),
+            0 0 25px rgba(255,255,255,0.4);
+    }
+
+    to {
+        box-shadow:
+            0 10px 40px rgba(120,40,75,0.22),
+            0 0 45px rgba(255,255,255,0.65);
+    }
+}
+
+@keyframes titlePulse {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.04);
+    }
+}
+
+@keyframes nameGlow {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes floating {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes heartFloat {
+
+    0% {
+        transform:
+            translateY(0)
+            scale(1);
+
+        opacity: 1;
+    }
+
+    100% {
+        transform:
+            translateY(-110vh)
+            scale(1.8);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================================
+   📱 MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .login-box {
+        padding: 30px 20px;
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .love-section {
+        padding: 55px 15px;
+    }
+
+    .love-section p {
+        font-size: 17px;
+
+        line-height: 1.8;
+    }
+
+    .photo-container {
+        padding: 8px;
+
+        border-radius: 20px;
+    }
+
+    .final-photo {
+        padding: 8px;
+    }
+
+    .lugaya {
+        font-size: 48px;
+    }
+}
+   </style>
+</head>
+
+<body>
+
+    <!-- =========================
+         SECRET LOGIN PAGE
+    ========================== -->
+
+    <section id="loginPage" class="login-page">
+
+        <div class="login-box">
+
+            <div class="heart-icon">❤️</div>
+
+            <p class="secret-label">A PRIVATE LITTLE WORLD</p>
+
+            <h1>For Someone Special</h1>
+
+            <p class="login-description">
+                There is a little piece of my heart waiting for you inside. 
+            </p>
+
+            <input
+                type="text"
+                id="dob"
+                placeholder="When your love born"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Your love nickname"    
+            >
+
+            <button onclick="enterLove()">
+                Enter inside My Heart ❤️
+            </button>
+
+            <p id="error"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <main id="mainPage">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="floating-hearts"></div>
+
+            <div class="hero-content">
+
+                <p class="small-text">
+                    A little piece of Lugaya Junior's heart
+                </p>
+
+                <h1>RAHMA</h1>
+
+                <p class="hero-message">
+                    If luck had a name, it would be yours.
+                </p>
+
+                <div class="scroll">
+                    ↓
+                    <br>
+                    Keep going
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOVE CHAPTER 01
+        ========================== -->
+
+        <section class="love-section">
+
+            <div class="photo-container">
+
+                <img
+                    src="rahma 01.jpeg"
+                    alt="rahma"
+                >
+
+            </div>
+
+            <div class="love-text">
+             
+                <span>It's me Lugaya jr</span>
+
+                <h2>My Greatest Blessing</h2>
+
+                <p>
+                    Having you in my life is the greatest blessing I could ever ask for.
+                    Every single day with you feels like a gift, and I thank God for
+                    bringing your heart to mine.
+                </p>
+
+                <p>
+                    You make me believe in love, in peace, and in forever.
+                    It truly is my luck to have you.
+                </p>
+
+                <p>
+                    I pray to God that He gives me the strength to love you,
+                    cherish you, and stay by your side until the very end.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOVE CHAPTER 02
+        ========================== -->
+
+        <section class="love-section reverse">
+
+            <div class="photo-container">
+
+                <img
+                    src="rahma 02.jpeg"
+                    alt="rahma"
+                >
+
+            </div>
+
+            <div class="love-text">
+
+                <span>Here it is</span>
+
+                <h2>My Answered Prayer</h2>
+
+                <p>
+                    You are my answered prayer and my favorite hello.
+                    Being with you is pure luck, and loving you is my greatest joy.
+                </p>
+
+                <p>
+                    I don't know what tomorrow holds,
+                    but I know I want to face it with you my love Rahma.
+                </p>
+
+                <p>
+                    May God give me the grace to hold your hand today,
+                    tomorrow, and until the end of time.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOVE CHAPTER 03
+        ========================== -->
+
+        <section class="love-section">
+
+            <div class="photo-container">
+
+                <img
+                    src="rahma 03.jpeg"
+                    alt="rahma"
+                >
+
+            </div>
+
+            <div class="love-text">
+
+                <span>My soul RAHMA</span>
+
+                <h2>If Luck Had A Name</h2>
+
+                <p>
+                    If luck had a name, it would be yours.
+                    Since the day I met you, my life has had more light,
+                    more laughter, and more love.
+                </p>
+
+                <p>
+                    You are my safe place and my greatest blessing.
+                </p>
+
+                <p>
+                    I ask God to keep us, to guide us,
+                    and to give me the strength to love you faithfully
+                    until our very last chapter.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL PHOTO
+        ========================== -->
+
+        <section class="final-photo-section">
+
+            <div class="final-photo">
+
+                <img
+                    src="rahma 04.jpeg"
+                    alt="rahma"
+                >
+
+            </div>
+
+            <p class="final-photo-text">
+                And after all these words...
+            </p>
+
+            <h2>
+                It will still be you. ❤️
+            </h2>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL LOVE SECTION
+        ========================== -->
+
+        <section class="final-section">
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <p class="final-intro">
+                And if you ever wonder who wrote all of this...
+            </p>
+
+            <h1 class="lugaya">
+                LUGAYA JUNIOR
+            </h1>
+
+            <p class="final-message">
+                will always have a heart that remembers your name.
+            </p>
+
+
+            <!-- MANY LUGAYA JUNIOR -->
+
+            <div class="name-cloud">
+
+                <span>RAHMA</span>
+
+            </div>
+
+
+            <p class="forever">
+                ❤️ RAHMA, YOU ARE MY FAVORITE PART OF THIS LIFE ❤️
+            </p>
+
+            <p class="signature">
+                — With love, Lugaya Junior
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script>
+/* =================================
+   SECRET LOGIN
+================================= */
+
+function enterLove() {
+    
+    const dob =
+        document.getElementById("dob").value.trim();
+    
+    const password =
+        document.getElementById("password").value.trim();
+    
+    const error =
+        document.getElementById("error");
+    
+    
+    // CORRECT DETAILS
+    
+    const correctDOB = "02/09/2004";
+    
+    const correctPassword = "Lugayajr";
+    
+    
+    // CHECK DETAILS
+    
+    if (
+        dob === correctDOB &&
+        password === correctPassword
+    ) {
+        
+        // Hide login
+        
+        document.getElementById("loginPage").style.display =
+            "none";
+        
+        
+        // Show website
+        
+        document.getElementById("mainPage").style.display =
+            "block";
+        
+        
+        // Start romantic hearts
+        
+        startHearts();
+        
+        
+        // Start from top
+        
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+        
+        
+    } else {
+        
+        error.textContent =
+            "This little world is protected by love ❤️";
+        
+    }
+}
+
+
+/* =================================
+   FLOATING HEARTS
+================================= */
+
+function startHearts() {
+    
+    const hero =
+        document.querySelector(".hero");
+    
+    
+    setInterval(function() {
+        
+        const heart =
+            document.createElement("div");
+        
+        
+        heart.classList.add("heart");
+        
+        
+        const hearts = [
+            "❤️",
+            "💗",
+            "💕",
+            "💖",
+            "🤍"
+        ];
+        
+        
+        heart.innerHTML =
+            hearts[
+                Math.floor(
+                    Math.random() * hearts.length
+                )
+            ];
+        
+        
+        // Random horizontal position
+        
+        heart.style.left =
+            Math.random() * 100 + "%";
+        
+        
+        // Random size
+        
+        heart.style.fontSize =
+            (12 + Math.random() * 22) + "px";
+        
+        
+        // Random speed
+        
+        heart.style.animationDuration =
+            (5 + Math.random() * 6) + "s";
+        
+        
+        hero.appendChild(heart);
+        
+        
+        // Remove after animation
+        
+        setTimeout(function() {
+            
+            heart.remove();
+            
+        }, 12000);
+        
+        
+    }, 500);
+}
+        
+    </script>
+
+</body>
+</html>
